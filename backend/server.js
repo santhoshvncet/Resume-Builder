@@ -21,12 +21,8 @@ const PORT = 4000 ;
 connectDB()
 
 
-const corsOption={
-    origin:'https://resume-builder-drab-gamma.vercel.app',
-    Credential:true
-}
 
-app.use(cors(corsOption));
+app.use(cors());
 
 
 app.use(express.json());
@@ -42,7 +38,7 @@ app.use(
     '/uploads',
     express.static(path.join(__dirname,'uploads'),{
         setHeaders:(res,_path)=>{
-            res.set('Access-Control-Allow-Origin','https://resume-builder-drab-gamma.vercel.app')
+            res.set('Access-Control-Allow-Origin','http://localhost:5173')
         }
     })
 )
