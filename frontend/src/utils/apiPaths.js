@@ -1,13 +1,13 @@
-export const BASE_URL ='http://localhost:4000'
+export const BASE_URL ='http://localhost:4000' || 'https://resume-builder-8cbb-4nnsx895r-santhoshvncets-projects.vercel.app/'
 
 //api frontend
 
 export const API_PATHS={
 
  AUTH:{
-        REGISTER:`${BASE_URL}/api/auth/register`,
-        LOGIN:`${BASE_URL}/api/auth/login`,
-        GET_PROFILE:`${BASE_URL}/api/auth/profile`,
+        REGISTER:`/api/auth/register`,
+        LOGIN:`/api/auth/login`,
+        GET_PROFILE:`$/api/auth/profile`,
     },
 
     RESUME:{
