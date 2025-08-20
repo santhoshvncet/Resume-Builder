@@ -20,7 +20,7 @@ const PORT = 4000 ;
 //connecting db
 connectDB()
 const corsOption={
-    origin:'https://resume-builder-drab-gamma.vercel.app',
+    origin:'https://resume-builder-6fv9.vercel.app/',
     Credential:true
 }
 
