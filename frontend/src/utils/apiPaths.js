@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 export const BASE_URL = 'http://localhost:4000'
+=======
+export const BASE_URL = 'https://resume-builder-drab-gamma.vercel.app'
+>>>>>>> a2cc32d8baba81b4925f2d4bf601c8cb46d3b675
 
 //api frontend
 
