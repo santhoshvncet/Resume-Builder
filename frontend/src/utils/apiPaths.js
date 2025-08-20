@@ -1,4 +1,4 @@
-export const BASE_URL = 'https://resume-builder-cok4.vercel.app/'
+export const BASE_URL = 'http://localhost:4000'
 
 //api frontend
 
