@@ -178,7 +178,7 @@ const LandingPage = () => {
                         <div className={landingPageStyles.ctaCardContent}>
                             <h2 className={landingPageStyles.ctaTitle}>Ready To Build <span className={landingPageStyles.ctaTitleGradient}>Standout Resume?</span></h2>
                             <p className={landingPageStyles.ctaDescription}>Join thousands of professionals who landed their dream jobs with our platform</p>
-                            <button className={landingPageStyles.ctaButton} onClick="">
+                            <button className={landingPageStyles.ctaButton} onClick={handleCTA}>
                                 <div className={landingPageStyles.ctaButtonOverlay}></div>
                                 <span className={landingPageStyles.ctaButtonText} onClick={handleCTA}>Start Building Now</span>
                             </button>

@@ -1,4 +1,4 @@
-export const BASE_URL ='http://localhost:4000' || 'https://resume-builder-8cbb-4nnsx895r-santhoshvncets-projects.vercel.app/'
+export const BASE_URL = 'https://resume-builder-drab-gamma.vercel.app/'
 
 //api frontend
 
