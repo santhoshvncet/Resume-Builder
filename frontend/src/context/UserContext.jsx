@@ -12,7 +12,7 @@ export const UserContext = createContext();
 
 
 const UserProvider=({children})=>{
-    const[user,setUser] =useState(true);
+    const[user,setUser] =useState(false);
     const[loading , setLoading] = useState(true);
 
     useEffect(()=>{
